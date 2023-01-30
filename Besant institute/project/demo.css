@@ -1,109 +1,121 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #dbd2cd;
-}
-.nav-cls {
-  height: 64px;
-  box-shadow: 0.5px 1px rgba(0, 0, 0, 0.2);
-}
-.list-item {
-  font-family: cursive;
-display: flex;
-  font-size: 20px;
-  margin-left: 169px;
-}
-.nav-item {
-  padding-left: 25px;
-}
-.para {
-    display: flex;
-    padding-top: 25px;
-    font-size: 41px;
-    font-family: fantasy;
-    letter-spacing: 2px;
-}
-
-.collapse {
-  position: relative;
-  top: 10px;
-}
-
-
-
-
-.img2 {
-    padding-top: 10px;
-    width: 660px;
-    height: 410px;
-}
-
-.text {
-  padding-left: 30px;
-}
-h1 {
-    font-size: 69px;
-    font-family: unset;
-    letter-spacing: 1px;
-}
-h1 a {
-  text-decoration: none;
-  color: #682c09;
-}
-.main-ui {
-  display: flex;
-  padding-top: 20px;
-}
-.main-ui p {
-  font-size: 38px;
-  padding-left: 19px;
-}
-.sub {
-    font-size: 20px;
-    font-family: cursive;
-    padding-top: 21px;
-
-}
-.card {
-  position: absolute;
-  top: 681px;
-  left: 20px;
-  border-radius: 18px;
-  background-color: black;
-  width: 10rem;
-  height: 45vh;
-}
-.card-img-top {
-  width: 159px;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-}
-.card-title {
-  font-size: 23px;
-  margin-top: -17px;
-  font-weight: bold;
-  margin-left: -8px;
-  font-family: fangsong;
-}
-
-.bi {
-  width: 23px;
-  height: 23px;
-}
-.icons {
- letter-spacing: 10px;
- padding-right: 35px;
-}
-.icons a{
+    margin: 0;
+    padding: 0;
+    background: #bfcbd4;
     color: black;
-}
-.icons a :hover{
-    color: #a98776;
-}
-.card-body {
-  font-size: 11px;
-  background: wheat;
-  height: 0px;
-  border-bottom-right-radius: 17px;
-  border-bottom-left-radius: 17px;
-}
+  }
+
+  .navbar-nav{
+    color: black;
+  }
+  .nav-cls {
+    height: 64px;
+    box-shadow: 0.5px 6px rgba(0, 0, 0, 0.041);
+    color: black;
+  }
+  .list-item {
+    font-family: cursive;
+  display: flex;
+    font-size: 22px;
+    margin-left: 181px;
+    font-weight: bold;
+    
+  }
+  .nav-item {
+    padding-left: 25px;
+  }
+  .para {
+      display: flex;
+      padding-top: 25px;
+      font-size: 41px;
+      font-family: fantasy;
+      letter-spacing: 2px;
+  }
+  
+  .collapse {
+    position: relative;
+    top: 10px;
+  }
+  
+  
+  
+  
+  .img2 {  
+      padding-top: 6px;
+    width: 750px;
+    height: 389px;
+
+  }
+  
+  .text {
+    padding-left: 30px;
+  }
+  h1 {
+      font-size: 69px;
+      font-family: unset;
+      letter-spacing: 1px;
+  }
+  h1 a {
+    text-decoration: none;
+    color: #552e20;
+  }
+  .main-ui {
+    display: flex;
+    padding-top: 20px;
+  }
+  .main-ui p {
+    font-size: 38px;
+    padding-left: 19px;
+  }
+  .sub {
+      font-size: 20px;
+      font-family: cursive;
+      padding-top: 21px;
+  
+  }
+  .sub h1{
+    font-weight: bold;
+  }
+  .card {
+    position: absolute;
+    top: 681px;
+    left: 20px;
+    border-radius: 18px;
+    background-color: black;
+    width: 10rem;
+    height: 45vh;
+  }
+  .card-img-top {
+    width: 159px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+  }
+  .card-title {
+    font-size: 23px;
+    margin-top: -17px;
+    font-weight: bold;
+    margin-left: -8px;
+    font-family: fangsong;
+  }
+  
+  .bi {
+    width: 23px;
+    height: 23px;
+  }
+  .icons {
+   letter-spacing: 10px;
+   padding-right: 35px;
+  }
+  .icons a{
+      color: black;
+  }
+  .icons a :hover{
+      color: #552e20;
+  }
+  .card-body {
+    font-size: 11px;
+    background: wheat;
+    height: 0px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+  }
