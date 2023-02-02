@@ -77,13 +77,13 @@ body {
     font-weight: bold;
   }
   .card {
-    position: absolute;
-    top: 681px;
-    left: 20px;
+    display: inline-block;
+    margin-left: 52px;
+    margin-top: 40px;
     border-radius: 18px;
     background-color: black;
     width: 10rem;
-    height: 45vh;
+    height: 45vh
   }
   .card-img-top {
     width: 159px;
@@ -96,6 +96,7 @@ body {
     font-weight: bold;
     margin-left: -8px;
     font-family: fangsong;
+
   }
   
   .bi {
@@ -113,9 +114,26 @@ body {
       color: #552e20;
   }
   .card-body {
-    font-size: 11px;
-    background: wheat;
-    height: 0px;
+    font-size: 9px;
+    background: #000000f0;
+    color: white;
+    height: 173px;
+    width: 159px;
     border-bottom-right-radius: 17px;
     border-bottom-left-radius: 17px;
+  }
+  .button{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 77%;
+    padding-top: 3px;
+  }
+  .sub-button{
+    padding: 10px;
+    font-size: 26px;
+    font-family: cursive;
+    border-radius: 30px;
+    background: #552e20;
+    color: white;
+    border: 1px solid black;
   }
